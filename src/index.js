@@ -169,6 +169,7 @@ class ECharts extends Component {
           mixedContentMode="always"
           onLoadEnd={this.onLoadEnd}
           androidHardwareAccelerationDisabled
+          style={{ flex: 1 , backgroundColor: 'transparent'}}
         />
       </View>
     );
